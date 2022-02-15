@@ -1,0 +1,349 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel ="shortcut icon" href="https://www.flaticon.com/kr/authors/google"/>
+		<title>멧돼지 알림 서비스</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">	
+		<style>
+			*{
+				font-family: 'Gowun Dodum', sans-serif;
+			}
+		</style>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<!-- <span class="icon fa-gem"></span> -->
+							<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTMxMC41ODYgMzkyaC0xMDkuMTcyYy0xOC41MzggMC0zMi42MzkgMTYuNjQ2LTI5LjU5MiAzNC45MzJsMTAgNjBjMi40MTEgMTQuNDY2IDE0LjkyNyAyNS4wNjggMjkuNTkyIDI1LjA2OGg4OS4xNzJjMTQuNjY1IDAgMjcuMTgxLTEwLjYwMiAyOS41OTItMjUuMDY4bDEwLTYwYzMuMDQ4LTE4LjI4Ni0xMS4wNTMtMzQuOTMyLTI5LjU5Mi0zNC45MzJ6bS04NC41ODYgNzVjLTguMjg0IDAtMTUtNi43MTYtMTUtMTVzNi43MTYtMTUgMTUtMTUgMTUgNi43MTYgMTUgMTUtNi43MTYgMTUtMTUgMTV6bTYwIDBjLTguMjg0IDAtMTUtNi43MTYtMTUtMTVzNi43MTYtMTUgMTUtMTUgMTUgNi43MTYgMTUgMTUtNi43MTYgMTUtMTUgMTV6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0ibTM3MC4wNDkgNDMwYy0uMDgzLjYyMi0uMTc2IDEuMjQzLS4yOCAxLjg2NGwtMTAgNTkuOTk5Yy0xLjE5OCA3LjE4Ni0zLjYyNiAxMy44ODMtNy4wNDIgMTkuODk2IDQ4LjI5Mi0zLjM5NSA4Ni43MzgtNDMuMDQ0IDg4LjIyMy05MS44MzEtMTcuMDg4IDYuNS0zNS42MDggMTAuMDcyLTU0Ljk1IDEwLjA3MnoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48cGF0aCBkPSJtMTQyLjIzIDQzMS44NjNjLS4xMDQtLjYyMS0uMTk2LTEuMjQyLS4yNzktMS44NjNoLTE1Ljk1MWMtMTkuMzQyIDAtMzcuODYyLTMuNTcyLTU0Ljk1LTEwLjA3MiAxLjQ4NSA0OC43ODcgMzkuOTMxIDg4LjQzNiA4OC4yMjMgOTEuODMxLTMuNDE3LTYuMDEzLTUuODQ1LTEyLjcwOC03LjA0Mi0xOS44OTV6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0ibTUwMC41NzcgMjYwLjcxNmMtNi4yMDYtMS45ODktMTIuOTkzLjI2LTE2Ljc4MyA1LjU2NWwtOS4zMTMgMTMuMDM5Yy0xOS43MzQgMjcuNjI5LTUwLjE5NCA0NS41NTctODMuNDggNDkuNzM1djM1Ljk0NWMwIDEyLjUwNC0zLjA2MyAyNC40NTEtOC42MTYgMzVoMy42MTVjNjguOTI1IDAgMTI1LTU2LjA3NSAxMjUtMTI1IDAtNi41MjEtNC4yMTMtMTIuMjk1LTEwLjQyMy0xNC4yODR6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0ibTEyOS42MTYgNDAwYy01LjU1My0xMC41NDktOC42MTYtMjIuNDk2LTguNjE2LTM1di0zNS45NDRjLTMzLjI4Ni00LjE3OC02My43NDYtMjIuMTA3LTgzLjQ4LTQ5LjczNWwtOS4zMTMtMTMuMDM5Yy0zLjc5LTUuMzA2LTEwLjU3Ny03LjU1NS0xNi43ODMtNS41NjUtNi4yMTEgMS45ODgtMTAuNDI0IDcuNzYyLTEwLjQyNCAxNC4yODMgMCA2OC45MjUgNTYuMDc1IDEyNSAxMjUgMTI1eiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIGQ9Im0zNTYuODgxIDM4My44NTljMi42NjMtNS43ODYgNC4xMTktMTIuMTkgNC4xMTktMTguODU5di01MGMwLTguMjg0IDYuNzE2LTE1IDE1LTE1IDIyLjg0MyAwIDQ0LjY4OS04LjY0NSA2MS4yOS0yMy43NDMtMy4yMDMtMTIuMjk3LTguNDQ2LTI0LjAzMi0xNS42MDQtMzQuNzctMTIuNDc5LTE4LjcyMS0xOS41MzMtNDAuMjY5LTIwLjU1Ni02Mi42NDIgNDEuMDk2LTYuMzI2IDc0LjUxNS0zOC4wNDEgODIuMTQ5LTgwLjAzMyA0LjcwOS0yNS44OTUgMTMuMDY0LTUwLjk2MSAyNC44MzQtNzQuNWwxLjMwMi0yLjYwM2MyLjMyNi00LjY0OSAyLjA3OC0xMC4xNzItLjY1NC0xNC41OTUtMi43MzQtNC40MjItNy41NjItNy4xMTQtMTIuNzYxLTcuMTE0aC0zNS41NDhjLTM4LjkzIDAtNzUuOTYxIDE2LjgwMy0xMDEuNTk5IDQ2LjEwMWwtNi44NTkgNy44NC0xNC4zNDEtOS40NTJjLTI0LjMwNi0xNi4wMjEtNTIuNTQyLTI0LjQ4OS04MS42NTMtMjQuNDg5cy01Ny4zNDcgOC40NjgtODEuNjUzIDI0LjQ4OGwtMTQuMzQxIDkuNDUyLTYuODYtNy44NGMtMjUuNjM3LTI5LjI5Ny02Mi42NjgtNDYuMS0xMDEuNTk4LTQ2LjFoLTM1LjU0OGMtNS4xOTggMC0xMC4wMjYgMi42OTEtMTIuNzU5IDcuMTEzcy0yLjk4MiA5Ljk0My0uNjU4IDE0LjU5M2wxLjMwNiAyLjYxMmMxMS43NjggMjMuNTM4IDIwLjEyMyA0OC42MDIgMjQuODMyIDc0LjQ5NCA3LjYzNSA0MS45OTIgNDEuMDU0IDczLjcwNyA4Mi4xNDkgODAuMDMzLTEuMDIyIDIyLjM3My04LjA3NiA0My45MjEtMjAuNTU2IDYyLjY0Mi03LjE1OCAxMC43MzgtMTIuNDAxIDIyLjQ3My0xNS42MDQgMzQuNzcgMTYuNjAxIDE1LjA5OCAzOC40NDcgMjMuNzQzIDYxLjI5IDIzLjc0MyA4LjI4NCAwIDE1IDYuNzE2IDE1IDE1djUwYzAgNi42NjkgMS40NTYgMTMuMDczIDQuMTE5IDE4Ljg1OS4xNzUtLjIxMi4zMzYtLjQzMi41MTQtLjY0MiAxMS40MjMtMTMuNDg0IDI4LjEwOS0yMS4yMTcgNDUuNzgxLTIxLjIxN2gxMDkuMTcyYzE3LjY3MiAwIDM0LjM1OCA3LjczMyA0NS43ODEgMjEuMjE4LjE3OC4yMS4zNC40MjkuNTE0LjY0MXptLTEzMC44ODEtMTU4Ljg1OWg2MGM4LjI4NCAwIDE1IDYuNzE2IDE1IDE1cy02LjcxNiAxNS0xNSAxNWgtNjBjLTguMjg0IDAtMTUtNi43MTYtMTUtMTVzNi43MTYtMTUgMTUtMTV6bS01MCAwYy04LjI4NCAwLTE1LTYuNzE2LTE1LTE1czYuNzE2LTE1IDE1LTE1IDE1IDYuNzE2IDE1IDE1LTYuNzE2IDE1LTE1IDE1em0xMjAgOTBoLTgwYy04LjI4NCAwLTE1LTYuNzE2LTE1LTE1czYuNzE2LTE1IDE1LTE1aDgwYzguMjg0IDAgMTUgNi43MTYgMTUgMTVzLTYuNzE2IDE1LTE1IDE1em00MC05MGMtOC4yODQgMC0xNS02LjcxNi0xNS0xNXM2LjcxNi0xNSAxNS0xNSAxNSA2LjcxNiAxNSAxNS02LjcxNiAxNS0xNSAxNXoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" width=50 height=90 />
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>멧돼지 알림 서비스</h1>
+								
+						
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#work">위치</a></li>
+									
+									
+								<li><a href="#about">영상</a></li>
+							
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Intro</h2>
+								<span class="image main"><img src="./images/멧돼지_사진.PNG" alt="" /></span>
+								<p>이 사이트는 멧돼지 위치 알림 서비스입니다. 멧돼지가 등장하면 멧돼지의 출현 시간과 위치를 분석하여 가상현실에서 보여주며,  <a href="#about">이곳을 클릭하면, </a> CCTV 상에 찍히는 영상을 실시간으로 볼 수 있습니다.</p>
+								<p>This site is a boar location notification service. When a boar appears, it analyzes the time and location of the boar's appearance and shows it in virtual reality, <a href="#about">and if you click here, </a>you can see the video taken on CCTV in real time.</p>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<iframe src = "maps - 복사본.html" width="750" height="650">
+
+								</iframe src = "maps - 복사본.html" width="750" height="650">
+
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">영상</h2>
+								<span class="image main"><video src="멧돼지 최종.mp4" width="750px"height="650x"controls </video> /></span>
+							
+							</article>
+
+				
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; 빅리더 아카데미 국립공원공단 林-林</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
